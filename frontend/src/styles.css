@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your existing styles (optional) */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  font-weight: 600;
+}
+
+textarea,
+input,
+select {
+  font-family: inherit;
+}
