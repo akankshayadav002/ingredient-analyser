@@ -8,6 +8,23 @@ Paste an ingredient list, select a product type, and receive a **clear, conserva
 
 Here are some live pictures :
 
+
+## 🛠️ Built With
+
+### 🔧 Backend & AI
+- **FastAPI** — high-performance Python backend for handling analysis requests
+- **LLM-based analysis pipeline** — interprets ingredient lists and generates structured safety insights
+- **Custom ingredient evaluation logic** — classifies ingredients into safety levels (Safe / Caution / Avoid)
+- **Rule-guided + AI-assisted reasoning** — ensures conservative, non-medical guidance
+- **REST API architecture** — clean request/response design for frontend integration
+
+### 🎯 Core Backend Responsibilities
+- Parse and normalize raw ingredient lists
+- Analyze ingredient risk and safety signals
+- Compute an overall product safety score
+- Generate structured explanations and alternative suggestions
+- Return deterministic, frontend-ready JSON responses
+
 ## ✨ Key Features
 
 ### 🟢 Safety Signal System
@@ -45,12 +62,6 @@ Here are some live pictures :
 * Scroll-contained results (no page jumping)
 * Modern, minimal, futuristic UI
 
-
-## 🛠️ Built With
-
-* **FastAPI, LLM Model**
-* ** **
-* **AI-powered ingredient analysis logic**
 
 ## 🎯 Why This Project Matters
 
