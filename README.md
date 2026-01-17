@@ -1,8 +1,8 @@
-# 🧪 Behind the Label AI
+# 🧪 What's Inside Label AI
 
 ### 🔍 AI-Powered Ingredient Safety Analyzer
 
-IngrediSafe AI is a web-based tool that helps users **understand ingredient safety instantly** for skincare and food products.
+What's Inside Label AI is a web-based tool that helps users **understand ingredient safety instantly** for skincare and food products.
 
 Paste an ingredient list, select a product type, and receive a **clear, conservative safety analysis** with visual signals, an overall score, and smarter insights — all in a clean, futuristic interface.
 
