@@ -2,33 +2,57 @@ import React, { useState } from "react";
 import IngredientForm from "./components/IngredientForm";
 import ResultCard from "./components/ResultCard";
 
-
 export default function App() {
-const [result, setResult] = useState(null);
+  const [result, setResult] = useState(null);
 
+  return (
+    <div className="app-root">
+      <div className="app-shell">
+        <header className="app-header app-header-bar"
+  onMouseEnter={() => document.body.classList.add("show-header")}
+  onMouseLeave={() => document.body.classList.remove("show-header")}>
+            <div className="header-left">
+                <div className="app-logo">
+                <span className="app-logo-dot" />
+                <span className="app-logo-text">AI Product Ingredient Analyzer</span>
+                </div>
+            </div>
 
-return (
-<div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
-<div className="max-w-5xl mx-auto px-4 py-10">
-<header className="mb-8">
-<h1 className="text-3xl font-bold text-slate-800">
-AI Product Ingredient Analyzer
-</h1>
-<p className="text-slate-600 mt-2">
-Analyze skincare or food ingredients for safety and suitability
-</p>
-</header>
+            <div className="header-right">
+                <button className="button-primary">Login / Sign up</button>
+            </div>
+        </header>
+        <section className="hero-center">
 
+            <h1 className="app-title futuristic-title">AI Product Ingredient Analyzer</h1>
 
-<IngredientForm onResult={setResult} />
+            <p className="app-subtitle">
+                Paste any skincare or food ingredient list and get an instant,
+                conservative safety review, warnings, and smarter alternatives.
+            </p>
+        </section>
+        <main className="app-main">
+          <IngredientForm onResult={setResult} />
+          <div className="result-panel">
+            <div className="result-panel-card">
+              {!result && (
+                <div className="empty-state-card">
+                  <div>
+                    <p className="empty-title">Waiting for ingredients</p>
+                    <p className="empty-subtitle">
+                      Paste a full ingredient list on the left and choose the
+                      product type. You will see a breakdown of each ingredient&apos;s
+                      safety level and overall product score here.
+                    </p>
+                  </div>
+                </div>
+              )}
+              {result && <ResultCard data={result} />}
+            </div>
+          </div>
+        </main>
 
-
-{result && (
-<div className="mt-10">
-<ResultCard data={result} />
-</div>
-)}
-</div>
-</div>
-);
+      </div>
+    </div>
+  );
 }
