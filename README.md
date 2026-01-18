@@ -1,8 +1,8 @@
-# 🧪 What's Inside Label AI
+# 🧪 Behind the Label
 
 ### 🔍 AI-Powered Ingredient Safety Analyzer
 
-What's Inside Label AI is a web-based tool that helps users **understand ingredient safety instantly** for skincare and food products.
+Behind the Label AI is a web-based tool that helps users **understand ingredient safety instantly** for skincare and food products.
 
 Paste an ingredient list, select a product type, and receive a **clear, conservative safety analysis** with visual signals, an overall score, and smarter insights — all in a clean, futuristic interface.
 
