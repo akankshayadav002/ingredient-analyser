@@ -8,11 +8,10 @@ Paste an ingredient list, select a product type, and receive a **clear, conserva
 
 ## 🖼️ Application Preview (Live Images):
 
-![Home Screen](images/home3.png)
-![Ingredient Input](images/home4.png)
-![Analysis Results](images/result.png)
-![Analysis Results](images/result2.png)
-![Analysis Results](images/result3.png)
+![Home Screen](images/home5.png)
+![Analysis Results](images/resultnew1.png)
+![Analysis Results](images/resultnew2.png)
+![Analysis Results](images/resultnew4.png)
 
 ## 🛠️ Built With
 
